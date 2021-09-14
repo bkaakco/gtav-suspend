@@ -8,6 +8,8 @@ Known issues:
 Sometimes in-game suspend shortcut is not work.
 Tearing in game when back to game after suspend ending.
 
+Version 0.9 Beta (14 September 2021)
+
 TR
 GTA V Suspend uygulaması GTA V'te herkese açık sunucularda (public servers) yalnız kalabilmeniz içindir.
 Kullanımı kolay. Uygulamayı açın, askıya al butonuna tıklayın ve rahatınıza bakın!
@@ -18,4 +20,4 @@ Bilinen sorunlar:
 Bazen oyundayken askıya alma kısayolu çalışmaz.
 Askıya alma bitişinden sonra oyuna dönüldüğünde yırtılma sorunu olabilir.
 
-
+Sürüm 0.9 Beta (14 Eylül 2021)
