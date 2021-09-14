@@ -1,0 +1,175 @@
+﻿<Window x:Name="MainW" x:Class="GTA_V_Suspend.MainWindow"
+ xmlns:p="clr-namespace:GTA_V_Suspend.Properties"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+               
+        Title = "GTA V Suspend" Height="460" Width="750" Loaded="MainW_Loaded" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Closing="MainW_Closing" Background="#FF464646">
+
+    <Grid x:Name="GridM" Background="#FF4B4B4B">
+        <Border  Height="99" Margin="59,70,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="626" CornerRadius="10" Background="#FF4E4E4E">
+            <Grid x:Name="Grid1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.Effect>
+                    <DropShadowEffect BlurRadius="20" Color="#FF3737FF" Opacity="0.1" Direction="270" RenderingBias="Quality" ShadowDepth="3"/>
+                </Grid.Effect>
+                <Label x:Name="LabelPidHeader" Content="PID (İşlem kimliği):" Margin="0,5,10,0" VerticalAlignment="Top" RenderTransformOrigin="-0.895,1.298" Background="{x:Null}" Foreground="#FFE6E6E6" Height="29" BorderThickness="0" HorizontalAlignment="Right" Width="190" HorizontalContentAlignment="Right" TextOptions.TextRenderingMode="ClearType"/>
+                <Label x:Name="LabelStatusHeader" Content="Durum:" Margin="0,35,10,0" VerticalAlignment="Top" RenderTransformOrigin="-0.895,1.298" Background="{x:Null}" Foreground="#FFE6E6E6" Height="29" HorizontalContentAlignment="Right" HorizontalAlignment="Right" Width="107"/>
+                <Label x:Name="LabelTimeHeader" Content="Askıda geçen süre:" Margin="0,65,10,0" RenderTransformOrigin="-0.895,1.298" Background="{x:Null}" Foreground="#FFE6E6E6" HorizontalAlignment="Right" Width="125" HorizontalContentAlignment="Right" Height="29" VerticalAlignment="Top"/>
+                <Label x:Name="LabelTime" Content="0 sn" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" Foreground="#FFF0F0F0" Height="29" Width="56" Grid.Column="1"/>
+                <Label x:Name="LabelStatus" Content="Askıya alma bekleniyor.&#xA;" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Foreground="#FFF0F0F0" Height="29" Width="293" Grid.Column="1"/>
+                <Label x:Name="LabelPid" Content="Yok.&#xA;" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top" Foreground="#FFF0F0F0" Height="29" Width="293" Grid.Column="1"/>
+            </Grid>
+
+        </Border>
+
+        <Border Height="163" Margin="59,198,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="626" CornerRadius="10" Background="#FF4E4E4E">
+
+            <Grid x:Name="Grid3" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.Effect>
+                    <DropShadowEffect BlurRadius="20" Color="#FF3737FF" Opacity="0.1" Direction="270" RenderingBias="Quality" ShadowDepth="3"/>
+                </Grid.Effect>
+                <Button x:Name="ButtonSuspend" Content="Askıya al" Margin="241,20,-72,0" TextOptions.TextRenderingMode="ClearType" VerticalAlignment="Top" Width="144" Click="ButtonSuspend_Click" Height="46" Foreground="#FF232323" FontSize="20" Padding="1"  HorizontalAlignment="Left">
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="15" Color="#FF646464" Direction="270" RenderingBias="Quality" Opacity="0.1" ShadowDepth="3"/>
+                    </Button.Effect>
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="#FF8C8C8C"/>
+                            <Setter Property="BorderThickness" Value="2"/>
+                            <Setter Property="BorderBrush" Value="#33FF2828"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}" >
+                                        <Border Background="{TemplateBinding Background}"  BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="6">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#FF787878"/>
+                                    <Setter Property="BorderBrush" Value="#33F02828"/>
+                                    <Setter Property="BorderThickness" Value="3"/>
+                                </Trigger>
+                                <Trigger Property="IsEnabled" Value="False">
+                                    <Setter Property="Background" Value="#FF646464"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+                <Button x:Name="ButtonResume" Content="Sürdür" Margin="241,0,0,20" TextOptions.TextRenderingMode="ClearType" Click="ButtonResume_Click" FontSize="20" Foreground="#FF232323" HorizontalAlignment="Left" Width="144" BorderBrush="#3328FF28" Grid.ColumnSpan="2" Height="46" VerticalAlignment="Bottom" >
+                    <Button.Effect>
+                        <DropShadowEffect Color="#FF646464" BlurRadius="15" Direction="270" Opacity="0.1" RenderingBias="Quality" ShadowDepth="3"/>
+                    </Button.Effect>
+
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="#FF8C8C8C"/>
+                            <Setter Property="BorderThickness" Value="2"/>
+                            <Setter Property="BorderBrush" Value="#3328FF28"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}" >
+                                        <Border Background="{TemplateBinding Background}"  BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="6">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#FF787878"/>
+                                    <Setter Property="BorderBrush" Value="#3328F028"/>
+                                    <Setter Property="BorderThickness" Value="3"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </Grid>
+
+        </Border>
+
+
+
+        <Button x:Name="ButtonSettings" Content="" Margin="59,10,0,0" TextOptions.TextRenderingMode="ClearType" VerticalAlignment="Top" Width="30" Height="30" Foreground="#FF232323" FontSize="20" Padding="1"  HorizontalAlignment="Left" Click="ButtonSettings_Click" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Settings.png" TileMode="Tile"/>
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="15" Color="#FF646464" Direction="270" RenderingBias="Quality" Opacity="0.1" ShadowDepth="3"/>
+            </Button.Effect>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#FF8C8C8C"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}" >
+                                <Border Background="{TemplateBinding Background}"  BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#FF787878"/>
+                            <Setter Property="BorderBrush" Value="#33F02828"/>
+                            <Setter Property="BorderThickness" Value="2"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Background" Value="#FF646464"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+        <Button x:Name="ButtonAbout" Content="" Margin="103,10,0,0" TextOptions.TextRenderingMode="ClearType" VerticalAlignment="Top" Width="30" Height="30" FontSize="20" Padding="1"  HorizontalAlignment="Left" BorderBrush="{x:Null}" Click="ButtonAbout_Click">
+
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/About.png" TileMode="Tile"/>
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="15" Color="#FF646464" Direction="270" RenderingBias="Quality" Opacity="0.1" ShadowDepth="3"/>
+            </Button.Effect>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#FF8C8C8C"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}" >
+                                <Border Background="{TemplateBinding Background}"  BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#FF787878"/>
+                            <Setter Property="BorderBrush" Value="#33F02828"/>
+                            <Setter Property="BorderThickness" Value="2"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Background" Value="#FF646464"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+
+
+    </Grid>
+</Window>

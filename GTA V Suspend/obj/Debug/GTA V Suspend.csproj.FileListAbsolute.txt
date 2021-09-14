@@ -1,0 +1,15 @@
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\bin\Debug\GTA V Suspend.exe.config
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\bin\Debug\GTA V Suspend.exe
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\bin\Debug\GTA V Suspend.pdb
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\Debug\GTA V Suspend.csprojAssemblyReference.cache
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\Debug\MainWindow.g.cs
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\Debug\App.g.cs
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\Debug\GTA V Suspend_MarkupCompile.cache
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\Debug\GTA V Suspend_MarkupCompile.lref
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\Debug\MainWindow.baml
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\Debug\GTA V Suspend.g.resources
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\Debug\GTA_V_Suspend.Properties.Resources.resources
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\Debug\GTA V Suspend.csproj.GenerateResource.cache
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\Debug\GTA V Suspend.csproj.CoreCompileInputs.cache
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\Debug\GTA V Suspend.exe
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\Debug\GTA V Suspend.pdb

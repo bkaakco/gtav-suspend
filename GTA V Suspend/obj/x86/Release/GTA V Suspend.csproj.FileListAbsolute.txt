@@ -1,0 +1,38 @@
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\bin\x86\Release\GTA V Suspend.exe.config
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\bin\x86\Release\GTA V Suspend.exe
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\bin\x86\Release\GTA V Suspend.pdb
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\MainWindow.g.cs
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\App.g.cs
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA V Suspend_MarkupCompile.cache
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA V Suspend_MarkupCompile.lref
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\MainWindow.baml
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA V Suspend.g.resources
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA_V_Suspend.Properties.Resources.resources
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA V Suspend.csproj.GenerateResource.cache
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA V Suspend.csproj.CoreCompileInputs.cache
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA V Suspend.exe
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA V Suspend.pdb
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA V Suspend.csprojAssemblyReference.cache
+C:\Users\berkn\Documents\Visual Studio 2017\Projects\GTA V Suspend\GTA V Suspend\bin\x86\Release\Resources\BKAAKCO_B_LOGO_48.png
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\bin\x86\Release\GTA V Suspend.exe.config
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\bin\x86\Release\GTA V Suspend.exe
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\bin\x86\Release\GTA V Suspend.pdb
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\bin\x86\Release\en-US\GTA V Suspend.resources.dll
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\About.g.cs
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\MainWindow.g.cs
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\Settings.g.cs
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\App.g.cs
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA V Suspend_MarkupCompile.cache
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA V Suspend_MarkupCompile.lref
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\About.baml
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\MainWindow.baml
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\Settings.baml
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA V Suspend.g.resources
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA_V_Suspend.Properties.Resources.resources
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA_V_Suspend.Properties.Resources.en-US.resources
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA V Suspend.csproj.GenerateResource.cache
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA V Suspend.csproj.CoreCompileInputs.cache
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\en-US\GTA V Suspend.resources.dll
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA V Suspend.exe
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA V Suspend.pdb
+C:\Users\Berk\Documents\Visual Studio 2019\Projects\GTA V Suspend\GTA V Suspend\obj\x86\Release\GTA V Suspend.csproj.AssemblyReference.cache
