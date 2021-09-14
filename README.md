@@ -1,5 +1,5 @@
 EN
-GTA V Suspend App for alone in GTA V public servers.
+GTA V Suspend App for get alone in GTA V public servers.
 Simple to use. Run the app, click the suspent button and enjoy!
 Also, you don't have to click the suspend button all time. You will find in-game suspend shortcut in app settings.
 I used the app for several times and I didn't see any risc. But remember, use this app is your choose.
